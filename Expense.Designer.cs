@@ -94,17 +94,19 @@
             // 
             this.viewIncomePanel.Controls.Add(this.viewIncomePictureBox);
             this.viewIncomePanel.Controls.Add(this.viewIncomeLabel);
-            this.viewIncomePanel.Location = new System.Drawing.Point(0, 248);
+            this.viewIncomePanel.Location = new System.Drawing.Point(0, 305);
+            this.viewIncomePanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.viewIncomePanel.Name = "viewIncomePanel";
-            this.viewIncomePanel.Size = new System.Drawing.Size(224, 48);
+            this.viewIncomePanel.Size = new System.Drawing.Size(299, 59);
             this.viewIncomePanel.TabIndex = 17;
             // 
             // viewIncomePictureBox
             // 
             this.viewIncomePictureBox.Image = global::Quick_Start_Finance.Properties.Resources.view_income_white;
-            this.viewIncomePictureBox.Location = new System.Drawing.Point(16, 8);
+            this.viewIncomePictureBox.Location = new System.Drawing.Point(21, 10);
+            this.viewIncomePictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.viewIncomePictureBox.Name = "viewIncomePictureBox";
-            this.viewIncomePictureBox.Size = new System.Drawing.Size(32, 32);
+            this.viewIncomePictureBox.Size = new System.Drawing.Size(43, 39);
             this.viewIncomePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.viewIncomePictureBox.TabIndex = 7;
             this.viewIncomePictureBox.TabStop = false;
@@ -114,9 +116,10 @@
             this.viewIncomeLabel.AutoSize = true;
             this.viewIncomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewIncomeLabel.ForeColor = System.Drawing.Color.White;
-            this.viewIncomeLabel.Location = new System.Drawing.Point(56, 16);
+            this.viewIncomeLabel.Location = new System.Drawing.Point(75, 20);
+            this.viewIncomeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.viewIncomeLabel.Name = "viewIncomeLabel";
-            this.viewIncomeLabel.Size = new System.Drawing.Size(116, 25);
+            this.viewIncomeLabel.Size = new System.Drawing.Size(146, 31);
             this.viewIncomeLabel.TabIndex = 8;
             this.viewIncomeLabel.Text = "My Income";
             this.viewIncomeLabel.Click += new System.EventHandler(this.viewIncomeLabel_Click);
@@ -126,17 +129,19 @@
             this.expensePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(133)))), ((int)(((byte)(237)))));
             this.expensePanel.Controls.Add(this.expensePictureBox);
             this.expensePanel.Controls.Add(this.expenseLabel);
-            this.expensePanel.Location = new System.Drawing.Point(0, 200);
+            this.expensePanel.Location = new System.Drawing.Point(0, 246);
+            this.expensePanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.expensePanel.Name = "expensePanel";
-            this.expensePanel.Size = new System.Drawing.Size(224, 48);
+            this.expensePanel.Size = new System.Drawing.Size(299, 59);
             this.expensePanel.TabIndex = 17;
             // 
             // expensePictureBox
             // 
             this.expensePictureBox.Image = global::Quick_Start_Finance.Properties.Resources.expense_white;
-            this.expensePictureBox.Location = new System.Drawing.Point(16, 8);
+            this.expensePictureBox.Location = new System.Drawing.Point(21, 10);
+            this.expensePictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.expensePictureBox.Name = "expensePictureBox";
-            this.expensePictureBox.Size = new System.Drawing.Size(32, 32);
+            this.expensePictureBox.Size = new System.Drawing.Size(43, 39);
             this.expensePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.expensePictureBox.TabIndex = 5;
             this.expensePictureBox.TabStop = false;
@@ -146,9 +151,10 @@
             this.expenseLabel.AutoSize = true;
             this.expenseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.expenseLabel.ForeColor = System.Drawing.Color.White;
-            this.expenseLabel.Location = new System.Drawing.Point(56, 16);
+            this.expenseLabel.Location = new System.Drawing.Point(75, 20);
+            this.expenseLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.expenseLabel.Name = "expenseLabel";
-            this.expenseLabel.Size = new System.Drawing.Size(144, 25);
+            this.expenseLabel.Size = new System.Drawing.Size(181, 31);
             this.expenseLabel.TabIndex = 6;
             this.expenseLabel.Text = "New Expense";
             // 
@@ -156,17 +162,19 @@
             // 
             this.settingsPanel.Controls.Add(this.settingsPictureBox);
             this.settingsPanel.Controls.Add(this.settingsLabel);
-            this.settingsPanel.Location = new System.Drawing.Point(0, 600);
+            this.settingsPanel.Location = new System.Drawing.Point(0, 738);
+            this.settingsPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.settingsPanel.Name = "settingsPanel";
-            this.settingsPanel.Size = new System.Drawing.Size(224, 48);
+            this.settingsPanel.Size = new System.Drawing.Size(299, 59);
             this.settingsPanel.TabIndex = 17;
             // 
             // settingsPictureBox
             // 
             this.settingsPictureBox.Image = global::Quick_Start_Finance.Properties.Resources.settings_white;
-            this.settingsPictureBox.Location = new System.Drawing.Point(16, 8);
+            this.settingsPictureBox.Location = new System.Drawing.Point(21, 10);
+            this.settingsPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.settingsPictureBox.Name = "settingsPictureBox";
-            this.settingsPictureBox.Size = new System.Drawing.Size(32, 32);
+            this.settingsPictureBox.Size = new System.Drawing.Size(43, 39);
             this.settingsPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.settingsPictureBox.TabIndex = 13;
             this.settingsPictureBox.TabStop = false;
@@ -176,9 +184,10 @@
             this.settingsLabel.AutoSize = true;
             this.settingsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.settingsLabel.ForeColor = System.Drawing.Color.White;
-            this.settingsLabel.Location = new System.Drawing.Point(56, 16);
+            this.settingsLabel.Location = new System.Drawing.Point(75, 20);
+            this.settingsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.settingsLabel.Name = "settingsLabel";
-            this.settingsLabel.Size = new System.Drawing.Size(90, 25);
+            this.settingsLabel.Size = new System.Drawing.Size(113, 31);
             this.settingsLabel.TabIndex = 14;
             this.settingsLabel.Text = "Settings";
             // 
@@ -187,20 +196,22 @@
             this.totalExpenseAmountLabel.AutoSize = true;
             this.totalExpenseAmountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalExpenseAmountLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(194)))), ((int)(((byte)(13)))));
-            this.totalExpenseAmountLabel.Location = new System.Drawing.Point(24, 80);
+            this.totalExpenseAmountLabel.Location = new System.Drawing.Point(32, 98);
+            this.totalExpenseAmountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.totalExpenseAmountLabel.Name = "totalExpenseAmountLabel";
-            this.totalExpenseAmountLabel.Size = new System.Drawing.Size(198, 25);
+            this.totalExpenseAmountLabel.Size = new System.Drawing.Size(87, 31);
             this.totalExpenseAmountLabel.TabIndex = 4;
-            this.totalExpenseAmountLabel.Text = "Amount in Dollars";
+            this.totalExpenseAmountLabel.Text = "$0.00";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(8, 8);
+            this.label13.Location = new System.Drawing.Point(11, 10);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(212, 58);
+            this.label13.Size = new System.Drawing.Size(256, 72);
             this.label13.TabIndex = 3;
             this.label13.Text = "All My Costs \r\n(Total Expenses)";
             // 
@@ -209,17 +220,19 @@
             this.incomePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(207)))), ((int)(((byte)(240)))));
             this.incomePanel.Controls.Add(this.incomePictureBox);
             this.incomePanel.Controls.Add(this.incomeLabel);
-            this.incomePanel.Location = new System.Drawing.Point(0, 152);
+            this.incomePanel.Location = new System.Drawing.Point(0, 187);
+            this.incomePanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.incomePanel.Name = "incomePanel";
-            this.incomePanel.Size = new System.Drawing.Size(224, 48);
+            this.incomePanel.Size = new System.Drawing.Size(299, 59);
             this.incomePanel.TabIndex = 17;
             // 
             // incomePictureBox
             // 
             this.incomePictureBox.Image = global::Quick_Start_Finance.Properties.Resources.income_white;
-            this.incomePictureBox.Location = new System.Drawing.Point(16, 8);
+            this.incomePictureBox.Location = new System.Drawing.Point(21, 10);
+            this.incomePictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.incomePictureBox.Name = "incomePictureBox";
-            this.incomePictureBox.Size = new System.Drawing.Size(32, 32);
+            this.incomePictureBox.Size = new System.Drawing.Size(43, 39);
             this.incomePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.incomePictureBox.TabIndex = 3;
             this.incomePictureBox.TabStop = false;
@@ -229,9 +242,10 @@
             this.incomeLabel.AutoSize = true;
             this.incomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.incomeLabel.ForeColor = System.Drawing.Color.White;
-            this.incomeLabel.Location = new System.Drawing.Point(56, 16);
+            this.incomeLabel.Location = new System.Drawing.Point(75, 20);
+            this.incomeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.incomeLabel.Name = "incomeLabel";
-            this.incomeLabel.Size = new System.Drawing.Size(129, 25);
+            this.incomeLabel.Size = new System.Drawing.Size(165, 31);
             this.incomeLabel.TabIndex = 4;
             this.incomeLabel.Text = "New Income";
             this.incomeLabel.Click += new System.EventHandler(this.incomeLabel_Click);
@@ -240,17 +254,19 @@
             // 
             this.viewExpensePanel.Controls.Add(this.viewExpensePictureBox);
             this.viewExpensePanel.Controls.Add(this.viewExpenseLabel);
-            this.viewExpensePanel.Location = new System.Drawing.Point(0, 296);
+            this.viewExpensePanel.Location = new System.Drawing.Point(0, 364);
+            this.viewExpensePanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.viewExpensePanel.Name = "viewExpensePanel";
-            this.viewExpensePanel.Size = new System.Drawing.Size(224, 48);
+            this.viewExpensePanel.Size = new System.Drawing.Size(299, 59);
             this.viewExpensePanel.TabIndex = 17;
             // 
             // viewExpensePictureBox
             // 
             this.viewExpensePictureBox.Image = global::Quick_Start_Finance.Properties.Resources.view_expense_white;
-            this.viewExpensePictureBox.Location = new System.Drawing.Point(16, 8);
+            this.viewExpensePictureBox.Location = new System.Drawing.Point(21, 10);
+            this.viewExpensePictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.viewExpensePictureBox.Name = "viewExpensePictureBox";
-            this.viewExpensePictureBox.Size = new System.Drawing.Size(32, 32);
+            this.viewExpensePictureBox.Size = new System.Drawing.Size(43, 39);
             this.viewExpensePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.viewExpensePictureBox.TabIndex = 9;
             this.viewExpensePictureBox.TabStop = false;
@@ -260,9 +276,10 @@
             this.viewExpenseLabel.AutoSize = true;
             this.viewExpenseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewExpenseLabel.ForeColor = System.Drawing.Color.White;
-            this.viewExpenseLabel.Location = new System.Drawing.Point(56, 16);
+            this.viewExpenseLabel.Location = new System.Drawing.Point(75, 20);
+            this.viewExpenseLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.viewExpenseLabel.Name = "viewExpenseLabel";
-            this.viewExpenseLabel.Size = new System.Drawing.Size(142, 25);
+            this.viewExpenseLabel.Size = new System.Drawing.Size(176, 31);
             this.viewExpenseLabel.TabIndex = 10;
             this.viewExpenseLabel.Text = "My Expenses";
             this.viewExpenseLabel.Click += new System.EventHandler(this.viewExpenseLabel_Click);
@@ -272,9 +289,10 @@
             this.dashboardLabel.AutoSize = true;
             this.dashboardLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashboardLabel.ForeColor = System.Drawing.Color.White;
-            this.dashboardLabel.Location = new System.Drawing.Point(56, 16);
+            this.dashboardLabel.Location = new System.Drawing.Point(75, 20);
+            this.dashboardLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dashboardLabel.Name = "dashboardLabel";
-            this.dashboardLabel.Size = new System.Drawing.Size(136, 25);
+            this.dashboardLabel.Size = new System.Drawing.Size(171, 31);
             this.dashboardLabel.TabIndex = 2;
             this.dashboardLabel.Text = "My Overview";
             this.dashboardLabel.Click += new System.EventHandler(this.dashboardLabel_Click);
@@ -283,17 +301,19 @@
             // 
             this.exitPanel.Controls.Add(this.exitPictureBox);
             this.exitPanel.Controls.Add(this.exitLabel);
-            this.exitPanel.Location = new System.Drawing.Point(0, 696);
+            this.exitPanel.Location = new System.Drawing.Point(0, 857);
+            this.exitPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.exitPanel.Name = "exitPanel";
-            this.exitPanel.Size = new System.Drawing.Size(224, 48);
+            this.exitPanel.Size = new System.Drawing.Size(299, 59);
             this.exitPanel.TabIndex = 18;
             // 
             // exitPictureBox
             // 
             this.exitPictureBox.Image = global::Quick_Start_Finance.Properties.Resources.exit_white1;
-            this.exitPictureBox.Location = new System.Drawing.Point(16, 8);
+            this.exitPictureBox.Location = new System.Drawing.Point(21, 10);
+            this.exitPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.exitPictureBox.Name = "exitPictureBox";
-            this.exitPictureBox.Size = new System.Drawing.Size(32, 32);
+            this.exitPictureBox.Size = new System.Drawing.Size(43, 39);
             this.exitPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.exitPictureBox.TabIndex = 11;
             this.exitPictureBox.TabStop = false;
@@ -303,9 +323,10 @@
             this.exitLabel.AutoSize = true;
             this.exitLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitLabel.ForeColor = System.Drawing.Color.White;
-            this.exitLabel.Location = new System.Drawing.Point(56, 16);
+            this.exitLabel.Location = new System.Drawing.Point(75, 20);
+            this.exitLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.exitLabel.Name = "exitLabel";
-            this.exitLabel.Size = new System.Drawing.Size(48, 25);
+            this.exitLabel.Size = new System.Drawing.Size(59, 31);
             this.exitLabel.TabIndex = 12;
             this.exitLabel.Text = "Exit";
             this.exitLabel.Click += new System.EventHandler(this.exitLabel_Click);
@@ -316,9 +337,10 @@
             this.saveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveButton.ForeColor = System.Drawing.Color.White;
-            this.saveButton.Location = new System.Drawing.Point(544, 600);
+            this.saveButton.Location = new System.Drawing.Point(725, 738);
+            this.saveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(160, 40);
+            this.saveButton.Size = new System.Drawing.Size(213, 49);
             this.saveButton.TabIndex = 47;
             this.saveButton.Text = "KEEP THIS!";
             this.saveButton.UseVisualStyleBackColor = false;
@@ -328,9 +350,10 @@
             // 
             this.expenseDateTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.expenseDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.expenseDateTimePicker.Location = new System.Drawing.Point(571, 241);
+            this.expenseDateTimePicker.Location = new System.Drawing.Point(761, 297);
+            this.expenseDateTimePicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.expenseDateTimePicker.Name = "expenseDateTimePicker";
-            this.expenseDateTimePicker.Size = new System.Drawing.Size(216, 31);
+            this.expenseDateTimePicker.Size = new System.Drawing.Size(287, 37);
             this.expenseDateTimePicker.TabIndex = 45;
             // 
             // label4
@@ -338,9 +361,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(133)))), ((int)(((byte)(237)))));
-            this.label4.Location = new System.Drawing.Point(570, 80);
+            this.label4.Location = new System.Drawing.Point(760, 98);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(240, 50);
+            this.label4.Size = new System.Drawing.Size(293, 62);
             this.label4.TabIndex = 44;
             this.label4.Text = "What kind of expense\r\n(Category)";
             // 
@@ -350,6 +374,8 @@
             this.expenseCategoryComboBox.FormattingEnabled = true;
             this.expenseCategoryComboBox.Items.AddRange(new object[] {
             "Computer",
+            "Donations",
+            "Entertainment",
             "Groceries",
             "Gym",
             "Internet",
@@ -359,10 +385,12 @@
             "Software",
             "Transportation",
             "Travel",
-            "Utilities"});
-            this.expenseCategoryComboBox.Location = new System.Drawing.Point(570, 136);
+            "Utilities",
+            "Other"});
+            this.expenseCategoryComboBox.Location = new System.Drawing.Point(760, 167);
+            this.expenseCategoryComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.expenseCategoryComboBox.Name = "expenseCategoryComboBox";
-            this.expenseCategoryComboBox.Size = new System.Drawing.Size(216, 33);
+            this.expenseCategoryComboBox.Size = new System.Drawing.Size(287, 38);
             this.expenseCategoryComboBox.TabIndex = 43;
             // 
             // label3
@@ -370,19 +398,21 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(133)))), ((int)(((byte)(237)))));
-            this.label3.Location = new System.Drawing.Point(274, 304);
+            this.label3.Location = new System.Drawing.Point(365, 374);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(313, 50);
+            this.label3.Size = new System.Drawing.Size(384, 62);
             this.label3.TabIndex = 41;
             this.label3.Text = "More about my new expense\r\n(Description)";
             // 
             // expenseDescriptionTextBox
             // 
             this.expenseDescriptionTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.expenseDescriptionTextBox.Location = new System.Drawing.Point(274, 360);
+            this.expenseDescriptionTextBox.Location = new System.Drawing.Point(365, 443);
+            this.expenseDescriptionTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.expenseDescriptionTextBox.Multiline = true;
             this.expenseDescriptionTextBox.Name = "expenseDescriptionTextBox";
-            this.expenseDescriptionTextBox.Size = new System.Drawing.Size(304, 120);
+            this.expenseDescriptionTextBox.Size = new System.Drawing.Size(404, 147);
             this.expenseDescriptionTextBox.TabIndex = 42;
             // 
             // label2
@@ -390,18 +420,20 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(133)))), ((int)(((byte)(237)))));
-            this.label2.Location = new System.Drawing.Point(274, 184);
+            this.label2.Location = new System.Drawing.Point(365, 226);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(198, 50);
+            this.label2.Size = new System.Drawing.Size(247, 62);
             this.label2.TabIndex = 39;
             this.label2.Text = "How much I spent\r\n(Amount)";
             // 
             // expenseAmountTextBox
             // 
             this.expenseAmountTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.expenseAmountTextBox.Location = new System.Drawing.Point(274, 240);
+            this.expenseAmountTextBox.Location = new System.Drawing.Point(365, 295);
+            this.expenseAmountTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.expenseAmountTextBox.Name = "expenseAmountTextBox";
-            this.expenseAmountTextBox.Size = new System.Drawing.Size(232, 31);
+            this.expenseAmountTextBox.Size = new System.Drawing.Size(308, 37);
             this.expenseAmountTextBox.TabIndex = 40;
             // 
             // label1
@@ -409,18 +441,20 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(133)))), ((int)(((byte)(237)))));
-            this.label1.Location = new System.Drawing.Point(274, 80);
+            this.label1.Location = new System.Drawing.Point(365, 98);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(253, 50);
+            this.label1.Size = new System.Drawing.Size(312, 62);
             this.label1.TabIndex = 34;
             this.label1.Text = "What I spent money on\r\n(Expense Title)";
             // 
             // expenseTitleTextBox
             // 
             this.expenseTitleTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.expenseTitleTextBox.Location = new System.Drawing.Point(274, 136);
+            this.expenseTitleTextBox.Location = new System.Drawing.Point(365, 167);
+            this.expenseTitleTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.expenseTitleTextBox.Name = "expenseTitleTextBox";
-            this.expenseTitleTextBox.Size = new System.Drawing.Size(232, 31);
+            this.expenseTitleTextBox.Size = new System.Drawing.Size(308, 37);
             this.expenseTitleTextBox.TabIndex = 38;
             // 
             // totalExpensesPanel
@@ -428,9 +462,10 @@
             this.totalExpensesPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(50)))), ((int)(((byte)(54)))));
             this.totalExpensesPanel.Controls.Add(this.totalExpenseAmountLabel);
             this.totalExpensesPanel.Controls.Add(this.label13);
-            this.totalExpensesPanel.Location = new System.Drawing.Point(824, 56);
+            this.totalExpensesPanel.Location = new System.Drawing.Point(1099, 69);
+            this.totalExpensesPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.totalExpensesPanel.Name = "totalExpensesPanel";
-            this.totalExpensesPanel.Size = new System.Drawing.Size(248, 112);
+            this.totalExpensesPanel.Size = new System.Drawing.Size(331, 138);
             this.totalExpensesPanel.TabIndex = 37;
             // 
             // personalFinanceDashboardLabel
@@ -439,9 +474,10 @@
             this.personalFinanceDashboardLabel.BackColor = System.Drawing.Color.White;
             this.personalFinanceDashboardLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.personalFinanceDashboardLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(50)))), ((int)(((byte)(54)))));
-            this.personalFinanceDashboardLabel.Location = new System.Drawing.Point(268, 24);
+            this.personalFinanceDashboardLabel.Location = new System.Drawing.Point(357, 30);
+            this.personalFinanceDashboardLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.personalFinanceDashboardLabel.Name = "personalFinanceDashboardLabel";
-            this.personalFinanceDashboardLabel.Size = new System.Drawing.Size(393, 42);
+            this.personalFinanceDashboardLabel.Size = new System.Drawing.Size(486, 54);
             this.personalFinanceDashboardLabel.TabIndex = 36;
             this.personalFinanceDashboardLabel.Text = "New Expense Details";
             // 
@@ -460,25 +496,28 @@
             this.navPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.navPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navPanel.Location = new System.Drawing.Point(0, 0);
+            this.navPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.navPanel.Name = "navPanel";
-            this.navPanel.Size = new System.Drawing.Size(224, 800);
+            this.navPanel.Size = new System.Drawing.Size(299, 985);
             this.navPanel.TabIndex = 35;
             // 
             // logoutPanel
             // 
             this.logoutPanel.Controls.Add(this.logoutPictureBox);
             this.logoutPanel.Controls.Add(this.logoutLabel);
-            this.logoutPanel.Location = new System.Drawing.Point(0, 648);
+            this.logoutPanel.Location = new System.Drawing.Point(0, 798);
+            this.logoutPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.logoutPanel.Name = "logoutPanel";
-            this.logoutPanel.Size = new System.Drawing.Size(224, 48);
+            this.logoutPanel.Size = new System.Drawing.Size(299, 59);
             this.logoutPanel.TabIndex = 17;
             // 
             // logoutPictureBox
             // 
             this.logoutPictureBox.Image = global::Quick_Start_Finance.Properties.Resources.logout_white;
-            this.logoutPictureBox.Location = new System.Drawing.Point(16, 8);
+            this.logoutPictureBox.Location = new System.Drawing.Point(21, 10);
+            this.logoutPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.logoutPictureBox.Name = "logoutPictureBox";
-            this.logoutPictureBox.Size = new System.Drawing.Size(32, 32);
+            this.logoutPictureBox.Size = new System.Drawing.Size(43, 39);
             this.logoutPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logoutPictureBox.TabIndex = 11;
             this.logoutPictureBox.TabStop = false;
@@ -488,9 +527,10 @@
             this.logoutLabel.AutoSize = true;
             this.logoutLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoutLabel.ForeColor = System.Drawing.Color.White;
-            this.logoutLabel.Location = new System.Drawing.Point(56, 16);
+            this.logoutLabel.Location = new System.Drawing.Point(75, 20);
+            this.logoutLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.logoutLabel.Name = "logoutLabel";
-            this.logoutLabel.Size = new System.Drawing.Size(78, 25);
+            this.logoutLabel.Size = new System.Drawing.Size(97, 31);
             this.logoutLabel.TabIndex = 12;
             this.logoutLabel.Text = "Logout";
             this.logoutLabel.Click += new System.EventHandler(this.logoutLabel_Click);
@@ -500,17 +540,19 @@
             this.dashboardPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(207)))), ((int)(((byte)(240)))));
             this.dashboardPanel.Controls.Add(this.dashboardPictureBox);
             this.dashboardPanel.Controls.Add(this.dashboardLabel);
-            this.dashboardPanel.Location = new System.Drawing.Point(0, 104);
+            this.dashboardPanel.Location = new System.Drawing.Point(0, 128);
+            this.dashboardPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dashboardPanel.Name = "dashboardPanel";
-            this.dashboardPanel.Size = new System.Drawing.Size(224, 48);
+            this.dashboardPanel.Size = new System.Drawing.Size(299, 59);
             this.dashboardPanel.TabIndex = 15;
             // 
             // dashboardPictureBox
             // 
             this.dashboardPictureBox.Image = global::Quick_Start_Finance.Properties.Resources.dashboard_white;
-            this.dashboardPictureBox.Location = new System.Drawing.Point(16, 8);
+            this.dashboardPictureBox.Location = new System.Drawing.Point(21, 10);
+            this.dashboardPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dashboardPictureBox.Name = "dashboardPictureBox";
-            this.dashboardPictureBox.Size = new System.Drawing.Size(32, 32);
+            this.dashboardPictureBox.Size = new System.Drawing.Size(43, 39);
             this.dashboardPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.dashboardPictureBox.TabIndex = 1;
             this.dashboardPictureBox.TabStop = false;
@@ -518,9 +560,10 @@
             // logoPictureBox
             // 
             this.logoPictureBox.Image = global::Quick_Start_Finance.Properties.Resources.Quick_Start_Finance_logo;
-            this.logoPictureBox.Location = new System.Drawing.Point(8, 8);
+            this.logoPictureBox.Location = new System.Drawing.Point(11, 10);
+            this.logoPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.logoPictureBox.Name = "logoPictureBox";
-            this.logoPictureBox.Size = new System.Drawing.Size(208, 48);
+            this.logoPictureBox.Size = new System.Drawing.Size(277, 59);
             this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logoPictureBox.TabIndex = 0;
             this.logoPictureBox.TabStop = false;
@@ -530,18 +573,19 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(133)))), ((int)(((byte)(237)))));
-            this.label5.Location = new System.Drawing.Point(570, 184);
+            this.label5.Location = new System.Drawing.Point(760, 226);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(170, 50);
+            this.label5.Size = new System.Drawing.Size(209, 62);
             this.label5.TabIndex = 46;
             this.label5.Text = "When I spent it\r\n(Date)";
             // 
             // Expense
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1100, 800);
+            this.ClientSize = new System.Drawing.Size(1467, 985);
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.expenseDateTimePicker);
             this.Controls.Add(this.label4);
@@ -557,6 +601,7 @@
             this.Controls.Add(this.navPanel);
             this.Controls.Add(this.label5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Expense";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Expense";

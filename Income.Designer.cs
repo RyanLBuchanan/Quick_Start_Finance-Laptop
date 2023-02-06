@@ -97,7 +97,7 @@
             this.exitLabel.ForeColor = System.Drawing.Color.White;
             this.exitLabel.Location = new System.Drawing.Point(56, 16);
             this.exitLabel.Name = "exitLabel";
-            this.exitLabel.Size = new System.Drawing.Size(48, 25);
+            this.exitLabel.Size = new System.Drawing.Size(59, 31);
             this.exitLabel.TabIndex = 12;
             this.exitLabel.Text = "Exit";
             this.exitLabel.Click += new System.EventHandler(this.exitLabel_Click);
@@ -148,7 +148,7 @@
             this.incomeLabel.ForeColor = System.Drawing.Color.White;
             this.incomeLabel.Location = new System.Drawing.Point(56, 16);
             this.incomeLabel.Name = "incomeLabel";
-            this.incomeLabel.Size = new System.Drawing.Size(129, 25);
+            this.incomeLabel.Size = new System.Drawing.Size(165, 31);
             this.incomeLabel.TabIndex = 4;
             this.incomeLabel.Text = "New Income";
             // 
@@ -178,7 +178,7 @@
             this.viewExpenseLabel.ForeColor = System.Drawing.Color.White;
             this.viewExpenseLabel.Location = new System.Drawing.Point(56, 16);
             this.viewExpenseLabel.Name = "viewExpenseLabel";
-            this.viewExpenseLabel.Size = new System.Drawing.Size(142, 25);
+            this.viewExpenseLabel.Size = new System.Drawing.Size(176, 31);
             this.viewExpenseLabel.TabIndex = 10;
             this.viewExpenseLabel.Text = "My Expenses";
             this.viewExpenseLabel.Click += new System.EventHandler(this.viewExpenseLabel_Click);
@@ -190,7 +190,7 @@
             this.logoutLabel.ForeColor = System.Drawing.Color.White;
             this.logoutLabel.Location = new System.Drawing.Point(56, 16);
             this.logoutLabel.Name = "logoutLabel";
-            this.logoutLabel.Size = new System.Drawing.Size(78, 25);
+            this.logoutLabel.Size = new System.Drawing.Size(97, 31);
             this.logoutLabel.TabIndex = 12;
             this.logoutLabel.Text = "Logout";
             this.logoutLabel.Click += new System.EventHandler(this.logoutLabel_Click);
@@ -221,7 +221,7 @@
             this.viewIncomeLabel.ForeColor = System.Drawing.Color.White;
             this.viewIncomeLabel.Location = new System.Drawing.Point(56, 16);
             this.viewIncomeLabel.Name = "viewIncomeLabel";
-            this.viewIncomeLabel.Size = new System.Drawing.Size(116, 25);
+            this.viewIncomeLabel.Size = new System.Drawing.Size(146, 31);
             this.viewIncomeLabel.TabIndex = 8;
             this.viewIncomeLabel.Text = "My Income";
             this.viewIncomeLabel.Click += new System.EventHandler(this.viewIncomeLabel_Click);
@@ -252,7 +252,7 @@
             this.expenseLabel.ForeColor = System.Drawing.Color.White;
             this.expenseLabel.Location = new System.Drawing.Point(56, 16);
             this.expenseLabel.Name = "expenseLabel";
-            this.expenseLabel.Size = new System.Drawing.Size(144, 25);
+            this.expenseLabel.Size = new System.Drawing.Size(181, 31);
             this.expenseLabel.TabIndex = 6;
             this.expenseLabel.Text = "New Expense";
             this.expenseLabel.Click += new System.EventHandler(this.expenseLabel_Click);
@@ -283,7 +283,7 @@
             this.settingsLabel.ForeColor = System.Drawing.Color.White;
             this.settingsLabel.Location = new System.Drawing.Point(56, 16);
             this.settingsLabel.Name = "settingsLabel";
-            this.settingsLabel.Size = new System.Drawing.Size(90, 25);
+            this.settingsLabel.Size = new System.Drawing.Size(113, 31);
             this.settingsLabel.TabIndex = 14;
             this.settingsLabel.Text = "Settings";
             // 
@@ -333,7 +333,7 @@
             this.dashboardLabel.ForeColor = System.Drawing.Color.White;
             this.dashboardLabel.Location = new System.Drawing.Point(56, 16);
             this.dashboardLabel.Name = "dashboardLabel";
-            this.dashboardLabel.Size = new System.Drawing.Size(136, 25);
+            this.dashboardLabel.Size = new System.Drawing.Size(171, 31);
             this.dashboardLabel.TabIndex = 2;
             this.dashboardLabel.Text = "My Overview";
             this.dashboardLabel.Click += new System.EventHandler(this.dashboardLabel_Click);
@@ -346,7 +346,7 @@
             this.personalFinanceDashboardLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(186)))), ((int)(((byte)(84)))));
             this.personalFinanceDashboardLabel.Location = new System.Drawing.Point(274, 24);
             this.personalFinanceDashboardLabel.Name = "personalFinanceDashboardLabel";
-            this.personalFinanceDashboardLabel.Size = new System.Drawing.Size(366, 42);
+            this.personalFinanceDashboardLabel.Size = new System.Drawing.Size(456, 54);
             this.personalFinanceDashboardLabel.TabIndex = 16;
             this.personalFinanceDashboardLabel.Text = "New Income Details";
             // 
@@ -386,7 +386,7 @@
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(8, 8);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(183, 58);
+            this.label13.Size = new System.Drawing.Size(219, 72);
             this.label13.TabIndex = 3;
             this.label13.Text = "All My Money\r\n(Total Income)";
             // 
@@ -397,9 +397,9 @@
             this.totalIncomeAmountLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(194)))), ((int)(((byte)(13)))));
             this.totalIncomeAmountLabel.Location = new System.Drawing.Point(24, 80);
             this.totalIncomeAmountLabel.Name = "totalIncomeAmountLabel";
-            this.totalIncomeAmountLabel.Size = new System.Drawing.Size(198, 25);
+            this.totalIncomeAmountLabel.Size = new System.Drawing.Size(87, 31);
             this.totalIncomeAmountLabel.TabIndex = 4;
-            this.totalIncomeAmountLabel.Text = "Amount in Dollars";
+            this.totalIncomeAmountLabel.Text = "$0.00";
             // 
             // panel4
             // 
@@ -416,7 +416,7 @@
             this.incomeTitleTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.incomeTitleTextBox.Location = new System.Drawing.Point(280, 136);
             this.incomeTitleTextBox.Name = "incomeTitleTextBox";
-            this.incomeTitleTextBox.Size = new System.Drawing.Size(232, 31);
+            this.incomeTitleTextBox.Size = new System.Drawing.Size(232, 37);
             this.incomeTitleTextBox.TabIndex = 24;
             // 
             // label1
@@ -426,7 +426,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(133)))), ((int)(((byte)(237)))));
             this.label1.Location = new System.Drawing.Point(280, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 50);
+            this.label1.Size = new System.Drawing.Size(284, 62);
             this.label1.TabIndex = 5;
             this.label1.Text = "What money came in\r\n(Income Title)";
             // 
@@ -437,7 +437,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(133)))), ((int)(((byte)(237)))));
             this.label2.Location = new System.Drawing.Point(280, 184);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 50);
+            this.label2.Size = new System.Drawing.Size(216, 62);
             this.label2.TabIndex = 25;
             this.label2.Text = "How much I got\r\n(Amount)";
             // 
@@ -446,7 +446,7 @@
             this.incomeAmountTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.incomeAmountTextBox.Location = new System.Drawing.Point(280, 240);
             this.incomeAmountTextBox.Name = "incomeAmountTextBox";
-            this.incomeAmountTextBox.Size = new System.Drawing.Size(232, 31);
+            this.incomeAmountTextBox.Size = new System.Drawing.Size(232, 37);
             this.incomeAmountTextBox.TabIndex = 26;
             // 
             // label3
@@ -456,7 +456,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(133)))), ((int)(((byte)(237)))));
             this.label3.Location = new System.Drawing.Point(280, 304);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(299, 50);
+            this.label3.Size = new System.Drawing.Size(368, 62);
             this.label3.TabIndex = 27;
             this.label3.Text = "More about my new income\r\n(Description)";
             // 
@@ -485,7 +485,7 @@
             "Other"});
             this.incomeCategoryComboBox.Location = new System.Drawing.Point(576, 136);
             this.incomeCategoryComboBox.Name = "incomeCategoryComboBox";
-            this.incomeCategoryComboBox.Size = new System.Drawing.Size(216, 33);
+            this.incomeCategoryComboBox.Size = new System.Drawing.Size(216, 38);
             this.incomeCategoryComboBox.TabIndex = 29;
             // 
             // label4
@@ -495,7 +495,7 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(133)))), ((int)(((byte)(237)))));
             this.label4.Location = new System.Drawing.Point(576, 80);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(226, 50);
+            this.label4.Size = new System.Drawing.Size(277, 62);
             this.label4.TabIndex = 30;
             this.label4.Text = "What kind of income\r\n(Category)";
             // 
@@ -505,7 +505,7 @@
             this.incomeDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.incomeDateTimePicker.Location = new System.Drawing.Point(576, 240);
             this.incomeDateTimePicker.Name = "incomeDateTimePicker";
-            this.incomeDateTimePicker.Size = new System.Drawing.Size(216, 31);
+            this.incomeDateTimePicker.Size = new System.Drawing.Size(216, 37);
             this.incomeDateTimePicker.TabIndex = 31;
             // 
             // label5
@@ -515,7 +515,7 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(133)))), ((int)(((byte)(237)))));
             this.label5.Location = new System.Drawing.Point(576, 184);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(145, 50);
+            this.label5.Size = new System.Drawing.Size(178, 62);
             this.label5.TabIndex = 32;
             this.label5.Text = "When I got it\r\n(Date)";
             // 
@@ -535,7 +535,7 @@
             // 
             // Income
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1100, 800);
