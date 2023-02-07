@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Quick_Start_Finance.exe" size="105440">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Quick_Start_Finance.exe" size="104416">
       <assemblyIdentity name="Quick_Start_Finance" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5XT0bZAYjCcsgRwVcyrgHflwDl09zqkyv/6iVyTbWvM=</dsig:DigestValue>
+        <dsig:DigestValue>pS/NL5vRxBY5BQ//lW6Jnb4EKs+ASLTubT9XcOxd8JM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
